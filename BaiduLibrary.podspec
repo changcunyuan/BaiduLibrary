@@ -1,24 +1,28 @@
 Pod::Spec.new do |s|
- s.name = "BaiduLibrary"
- s.version = "0.0.1"
- s.summary = "A short description of BaiduLibrary."
- s.description = <<-DESC
- A longer description of BaiduLibrary in Markdown format.
- * Think: Why did you write this? What is the focus? What does it do?
- * CocoaPods will be using this to generate tags, and improve search results.
- * Try to keep it short, snappy and to the point.
- * Finally, don't worry about the indent, CocoaPods strips it!
- DESC
- s.homepage = "https://github.com/changcunyuan/BaiduLibrary"
- s.license = "MIT"
- s.author = { "changcunyuan" => "409593434@qq.com" }
- s.source = { :git => "https://github.com/changcunyuan/BaiduLibrary.git", :tag => "0.0.1" }
- s.source_files = "BaiduLibrary/Src", "BaiduLibrary/Src/**/*.{h,m}"
- s.requires_arc = true
- # s.framework = "SomeFramework"
- # s.frameworks = "SomeFramework", "AnotherFramework"
- # s.library = "iconv"
- # s.libraries = "iconv", "xml2"
- # s.dependency "JSONKit", "~> 1.4"
- # s.dependency "AFNetworking", "~> 2.2.4"
- end
+  s.name             = "BaiduLibrary"
+  s.version          = "1.0.0"
+  s.summary          = "A marquee view used on iOS."
+  s.description      = <<-DESC
+                       It is a marquee view used on iOS, which implement by Objective-C.
+                       DESC
+  s.homepage         = "https://github.com/changcunyuan/BaiduLibrary"
+  # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.license          = 'MIT'
+  s.author           = { "changcunyuan" => "409593434@qq.com" }
+  s.source           = { :git => "https://github.com/changcunyuan/BaiduLibrary.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/NAME'
+
+  s.platform     = :ios, '7.0'
+  # s.ios.deployment_target = '5.0'
+  # s.osx.deployment_target = '10.7'
+  s.requires_arc = true
+
+  s.source_files = 'BaiduLibrary/*'
+  # s.resources = 'Assets'
+
+  # s.ios.exclude_files = 'Classes/osx'
+  # s.osx.exclude_files = 'Classes/ios'
+  # s.public_header_files = 'Classes/**/*.h'
+  s.frameworks = 'Foundation', 'UIKit'
+
+end
