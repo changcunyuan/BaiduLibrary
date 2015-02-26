@@ -17,12 +17,13 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'BaiduLibrary/*'
+  s.source_files = 'BaiduLibrary/BaiduLibrary/*'
   # s.resources = 'Assets'
 
   # s.ios.exclude_files = 'Classes/osx'
   # s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   s.frameworks = 'Foundation', 'UIKit'
-
+  s.dependency "AFNetworking", "~> 2.5.0"
+  s.dependency "SDWebImage", '~> 3.7.1'
 end

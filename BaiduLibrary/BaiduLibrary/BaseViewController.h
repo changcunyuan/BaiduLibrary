@@ -10,7 +10,7 @@
 #import "AppMacro.h"
 #import "Toast+UIView.h"
 #import "UIView+Util.h"
-#import "Reachability.h"
+//#import "Reachability.h"
 
 // 加载图片
 #import "UIImageView+WebCache.h"
