@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38634B7C19F53DA200B6048E /* BaiduLibrary.h in Copy Files (32 items) (37 items) */ = {isa = PBXBuildFile; fileRef = 38634B7B19F53DA200B6048E /* BaiduLibrary.h */; };
+		38634B7E19F53DA200B6048E /* BaiduLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 38634B7D19F53DA200B6048E /* BaiduLibrary.m */; };
+		38634B9219F53E3B00B6048E /* AppMacro.h in Copy Files (32 items) (37 items) */ = {isa = PBXBuildFile; fileRef = 38634B9119F53E1C00B6048E /* AppMacro.h */; };
+		CF28FDB01A9F230500EE7DED /* BaseHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDAD1A9F230500EE7DED /* BaseHttpRequest.m */; };
+		CF28FDB11A9F230500EE7DED /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDAF1A9F230500EE7DED /* BaseViewController.m */; };
+		CF28FDB61A9F231200EE7DED /* BdUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDB31A9F231200EE7DED /* BdUIView.m */; };
+		CF28FDB71A9F231200EE7DED /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDB51A9F231200EE7DED /* Toast+UIView.m */; };
+		CF28FDCE1A9F233F00EE7DED /* BaiduUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDB91A9F233F00EE7DED /* BaiduUtil.m */; };
+		CF28FDCF1A9F233F00EE7DED /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDBB1A9F233F00EE7DED /* DeviceUtil.m */; };
+		CF28FDD01A9F233F00EE7DED /* DistanceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDBD1A9F233F00EE7DED /* DistanceUtil.m */; };
+		CF28FDD11A9F233F00EE7DED /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDBF1A9F233F00EE7DED /* FileManager.m */; };
+		CF28FDD21A9F233F00EE7DED /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDC11A9F233F00EE7DED /* KeychainItemWrapper.m */; };
+		CF28FDD31A9F233F00EE7DED /* NSNull+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDC31A9F233F00EE7DED /* NSNull+Safe.m */; };
+		CF28FDD41A9F233F00EE7DED /* StringSizeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDC51A9F233F00EE7DED /* StringSizeUtil.m */; };
+		CF28FDD51A9F233F00EE7DED /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDC71A9F233F00EE7DED /* TimeUtil.m */; };
+		CF28FDD61A9F233F00EE7DED /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDC91A9F233F00EE7DED /* Toast+UIView.m */; };
+		CF28FDD71A9F233F00EE7DED /* UIImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDCB1A9F233F00EE7DED /* UIImageUtil.m */; };
+		CF28FDD81A9F233F00EE7DED /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = CF28FDCD1A9F233F00EE7DED /* UIView+Util.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38634B7619F53DA200B6048E /* Copy Files (32 items) (37 items) */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				38634B9219F53E3B00B6048E /* AppMacro.h in Copy Files (32 items) (37 items) */,
+				38634B7C19F53DA200B6048E /* BaiduLibrary.h in Copy Files (32 items) (37 items) */,
+			);
+			name = "Copy Files (32 items) (37 items)";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38634B7819F53DA200B6048E /* libBaiduLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBaiduLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38634B7B19F53DA200B6048E /* BaiduLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduLibrary.h; sourceTree = "<group>"; };
+		38634B7D19F53DA200B6048E /* BaiduLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduLibrary.m; sourceTree = "<group>"; };
+		38634B8619F53DA200B6048E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38634B9119F53E1C00B6048E /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		CF28FDAC1A9F230500EE7DED /* BaseHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpRequest.h; sourceTree = "<group>"; };
+		CF28FDAD1A9F230500EE7DED /* BaseHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpRequest.m; sourceTree = "<group>"; };
+		CF28FDAE1A9F230500EE7DED /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CF28FDAF1A9F230500EE7DED /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CF28FDB21A9F231200EE7DED /* BdUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BdUIView.h; sourceTree = "<group>"; };
+		CF28FDB31A9F231200EE7DED /* BdUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BdUIView.m; sourceTree = "<group>"; };
+		CF28FDB41A9F231200EE7DED /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		CF28FDB51A9F231200EE7DED /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		CF28FDB81A9F233F00EE7DED /* BaiduUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiduUtil.h; sourceTree = "<group>"; };
+		CF28FDB91A9F233F00EE7DED /* BaiduUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiduUtil.m; sourceTree = "<group>"; };
+		CF28FDBA1A9F233F00EE7DED /* DeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
+		CF28FDBB1A9F233F00EE7DED /* DeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		CF28FDBC1A9F233F00EE7DED /* DistanceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceUtil.h; sourceTree = "<group>"; };
+		CF28FDBD1A9F233F00EE7DED /* DistanceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceUtil.m; sourceTree = "<group>"; };
+		CF28FDBE1A9F233F00EE7DED /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		CF28FDBF1A9F233F00EE7DED /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		CF28FDC01A9F233F00EE7DED /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		CF28FDC11A9F233F00EE7DED /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		CF28FDC21A9F233F00EE7DED /* NSNull+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Safe.h"; sourceTree = "<group>"; };
+		CF28FDC31A9F233F00EE7DED /* NSNull+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Safe.m"; sourceTree = "<group>"; };
+		CF28FDC41A9F233F00EE7DED /* StringSizeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSizeUtil.h; sourceTree = "<group>"; };
+		CF28FDC51A9F233F00EE7DED /* StringSizeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSizeUtil.m; sourceTree = "<group>"; };
+		CF28FDC61A9F233F00EE7DED /* TimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeUtil.h; sourceTree = "<group>"; };
+		CF28FDC71A9F233F00EE7DED /* TimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeUtil.m; sourceTree = "<group>"; };
+		CF28FDC81A9F233F00EE7DED /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
+		CF28FDC91A9F233F00EE7DED /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		CF28FDCA1A9F233F00EE7DED /* UIImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageUtil.h; sourceTree = "<group>"; };
+		CF28FDCB1A9F233F00EE7DED /* UIImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageUtil.m; sourceTree = "<group>"; };
+		CF28FDCC1A9F233F00EE7DED /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		CF28FDCD1A9F233F00EE7DED /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38634B7519F53DA200B6048E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38634B6F19F53DA200B6048E = {
+			isa = PBXGroup;
+			children = (
+				38634B7A19F53DA200B6048E /* BaiduLibrary */,
+				38634B8419F53DA200B6048E /* BaiduLibraryTests */,
+				38634B7919F53DA200B6048E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38634B7919F53DA200B6048E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38634B7819F53DA200B6048E /* libBaiduLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38634B7A19F53DA200B6048E /* BaiduLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				38634B9119F53E1C00B6048E /* AppMacro.h */,
+				38634B7B19F53DA200B6048E /* BaiduLibrary.h */,
+				38634B7D19F53DA200B6048E /* BaiduLibrary.m */,
+				CF28FD871A9F229300EE7DED /* Util */,
+				CF28FD861A9F228E00EE7DED /* UIView */,
+				CF28FD7F1A9F228000EE7DED /* Base */,
+			);
+			path = BaiduLibrary;
+			sourceTree = "<group>";
+		};
+		38634B8419F53DA200B6048E /* BaiduLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				38634B8519F53DA200B6048E /* Supporting Files */,
+			);
+			path = BaiduLibraryTests;
+			sourceTree = "<group>";
+		};
+		38634B8519F53DA200B6048E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38634B8619F53DA200B6048E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF28FD7F1A9F228000EE7DED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF28FDAC1A9F230500EE7DED /* BaseHttpRequest.h */,
+				CF28FDAD1A9F230500EE7DED /* BaseHttpRequest.m */,
+				CF28FDAE1A9F230500EE7DED /* BaseViewController.h */,
+				CF28FDAF1A9F230500EE7DED /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		CF28FD861A9F228E00EE7DED /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				CF28FDB21A9F231200EE7DED /* BdUIView.h */,
+				CF28FDB31A9F231200EE7DED /* BdUIView.m */,
+				CF28FDB41A9F231200EE7DED /* Toast+UIView.h */,
+				CF28FDB51A9F231200EE7DED /* Toast+UIView.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		CF28FD871A9F229300EE7DED /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CF28FDB81A9F233F00EE7DED /* BaiduUtil.h */,
+				CF28FDB91A9F233F00EE7DED /* BaiduUtil.m */,
+				CF28FDBA1A9F233F00EE7DED /* DeviceUtil.h */,
+				CF28FDBB1A9F233F00EE7DED /* DeviceUtil.m */,
+				CF28FDBC1A9F233F00EE7DED /* DistanceUtil.h */,
+				CF28FDBD1A9F233F00EE7DED /* DistanceUtil.m */,
+				CF28FDBE1A9F233F00EE7DED /* FileManager.h */,
+				CF28FDBF1A9F233F00EE7DED /* FileManager.m */,
+				CF28FDC01A9F233F00EE7DED /* KeychainItemWrapper.h */,
+				CF28FDC11A9F233F00EE7DED /* KeychainItemWrapper.m */,
+				CF28FDC21A9F233F00EE7DED /* NSNull+Safe.h */,
+				CF28FDC31A9F233F00EE7DED /* NSNull+Safe.m */,
+				CF28FDC41A9F233F00EE7DED /* StringSizeUtil.h */,
+				CF28FDC51A9F233F00EE7DED /* StringSizeUtil.m */,
+				CF28FDC61A9F233F00EE7DED /* TimeUtil.h */,
+				CF28FDC71A9F233F00EE7DED /* TimeUtil.m */,
+				CF28FDC81A9F233F00EE7DED /* Toast+UIView.h */,
+				CF28FDC91A9F233F00EE7DED /* Toast+UIView.m */,
+				CF28FDCA1A9F233F00EE7DED /* UIImageUtil.h */,
+				CF28FDCB1A9F233F00EE7DED /* UIImageUtil.m */,
+				CF28FDCC1A9F233F00EE7DED /* UIView+Util.h */,
+				CF28FDCD1A9F233F00EE7DED /* UIView+Util.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38634B7719F53DA200B6048E /* BaiduLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38634B8919F53DA200B6048E /* Build configuration list for PBXNativeTarget "BaiduLibrary" */;
+			buildPhases = (
+				38634B7419F53DA200B6048E /* Sources */,
+				38634B7519F53DA200B6048E /* Frameworks */,
+				38634B7619F53DA200B6048E /* Copy Files (32 items) (37 items) */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduLibrary;
+			productName = BaiduLibrary;
+			productReference = 38634B7819F53DA200B6048E /* libBaiduLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38634B7019F53DA200B6048E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "zhuayi inc";
+				TargetAttributes = {
+					38634B7719F53DA200B6048E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 38634B7319F53DA200B6048E /* Build configuration list for PBXProject "BaiduLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38634B6F19F53DA200B6048E;
+			productRefGroup = 38634B7919F53DA200B6048E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38634B7719F53DA200B6048E /* BaiduLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38634B7419F53DA200B6048E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF28FDB61A9F231200EE7DED /* BdUIView.m in Sources */,
+				CF28FDCF1A9F233F00EE7DED /* DeviceUtil.m in Sources */,
+				CF28FDD01A9F233F00EE7DED /* DistanceUtil.m in Sources */,
+				CF28FDB71A9F231200EE7DED /* Toast+UIView.m in Sources */,
+				CF28FDB01A9F230500EE7DED /* BaseHttpRequest.m in Sources */,
+				CF28FDB11A9F230500EE7DED /* BaseViewController.m in Sources */,
+				38634B7E19F53DA200B6048E /* BaiduLibrary.m in Sources */,
+				CF28FDCE1A9F233F00EE7DED /* BaiduUtil.m in Sources */,
+				CF28FDD21A9F233F00EE7DED /* KeychainItemWrapper.m in Sources */,
+				CF28FDD11A9F233F00EE7DED /* FileManager.m in Sources */,
+				CF28FDD81A9F233F00EE7DED /* UIView+Util.m in Sources */,
+				CF28FDD31A9F233F00EE7DED /* NSNull+Safe.m in Sources */,
+				CF28FDD41A9F233F00EE7DED /* StringSizeUtil.m in Sources */,
+				CF28FDD71A9F233F00EE7DED /* UIImageUtil.m in Sources */,
+				CF28FDD61A9F233F00EE7DED /* Toast+UIView.m in Sources */,
+				CF28FDD51A9F233F00EE7DED /* TimeUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38634B8719F53DA200B6048E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../skyeye/Pods/**",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = YES;
+				USER_HEADER_SEARCH_PATHS = $HEADER_SEARCH_PATHS;
+			};
+			name = Debug;
+		};
+		38634B8819F53DA200B6048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../skyeye/Pods/**",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = YES;
+				USER_HEADER_SEARCH_PATHS = $HEADER_SEARCH_PATHS;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38634B8A19F53DA200B6048E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				INSTALL_PATH = "$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduLibrary/BaiduStar/universal-bin",
+					"$(PROJECT_DIR)/BaiduLibrary/UfoSdk",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		38634B8B19F53DA200B6048E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				INSTALL_PATH = "$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduLibrary/BaiduStar/universal-bin",
+					"$(PROJECT_DIR)/BaiduLibrary/UfoSdk",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38634B7319F53DA200B6048E /* Build configuration list for PBXProject "BaiduLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38634B8719F53DA200B6048E /* Debug */,
+				38634B8819F53DA200B6048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38634B8919F53DA200B6048E /* Build configuration list for PBXNativeTarget "BaiduLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38634B8A19F53DA200B6048E /* Debug */,
+				38634B8B19F53DA200B6048E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38634B7019F53DA200B6048E /* Project object */;
+}
